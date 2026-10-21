@@ -1,0 +1,15 @@
+export const RECEIPT_CATEGORIES = [
+  "Medical Expenses",
+  "Food & Groceries",
+  "Electronics",
+  "Office Supplies",
+  "Travel & Transportation",
+  "Utilities",
+  "Rent/Housing",
+  "Clothing",
+  "Education",
+  "Charitable Donations",
+  "Insurance",
+  "Professional Services",
+  "Other",
+];

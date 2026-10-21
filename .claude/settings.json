@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose *)",
+      "Bash(tasklist)",
+      "Bash(docker info *)",
+      "Bash(powershell -Command \"Start-Process 'C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe'\")",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s -X POST http://localhost:5173/api/auth/register -H 'Content-Type: application/json' -d '{\"username\":\"proxyuser\",\"password\":\"password123\"}')",
+      "Bash(python3 -c ' *)",
+      "Bash(pdftotext /tmp/report.pdf -)"
+    ]
+  }
+}
